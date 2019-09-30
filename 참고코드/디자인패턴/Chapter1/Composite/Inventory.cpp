@@ -79,7 +79,8 @@ void Bag::View()
 void Bag::AddInventory(Inventory* inventory)
 {
 
-	inventory->SetParent(this);	inventoryList.push_back(inventory);
+	inventory->SetParent(this);
+	inventoryList.push_back(inventory);
 }
 
 void Bag::RemoveInventory(Inventory* inventory)
